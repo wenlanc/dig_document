@@ -1,0 +1,63 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap'); */
+
+/* html,
+body {
+	margin: 0;
+	height: 100%;
+	font-family: 'Montserrat';
+	/* height of sticky header *\/
+	scroll-padding-top: 70px; 
+} */
+
+/* nbs === no scroll bar */
+.nbs {
+	max-height: 100%;
+	width: min(60%, 750px);
+}
+.nbs::-webkit-scrollbar {
+	display: none !important;
+}
+.custom-modal {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: auto;
+}
+
+/* .the-modal {
+	display: none !important;
+	align-items: center;
+	justify-content: center;
+	overflow: auto;
+} */
+/* .MuiOutlinedInput-input {
+	width: 100% !important;
+} */
+/* .Mui-checked {
+	background: rgb(255, 255, 255) !important;
+	background-image: none !important;
+	background: -moz-radial-gradient(
+		circle,
+		rgba(255, 255, 255, 1) 27%,
+		rgba(0, 99, 200, 1) 30%
+	);
+	background: -webkit-radial-gradient(
+		circle,
+		rgba(255, 255, 255, 1) 27%,
+		rgba(0, 99, 200, 1) 30%
+	);
+	background: radial-gradient(
+		circle,
+		rgba(255, 255, 255, 1) 27%,
+		rgba(0, 99, 200, 1) 30%
+	) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#0063c8",GradientType=1);
+} */
+
+.react-pdf__Page__canvas {
+    margin: 0 auto;
+    width: 96% !important;
+    height: 100% !important;
+}

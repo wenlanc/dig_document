@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "baseUrl": "server",
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "module": "CommonJS",
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "Node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+    },
+    "include": ["server"]
+  } 

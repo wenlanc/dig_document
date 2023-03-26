@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "DOM"
+    ],
+    "baseUrl": "src",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src",
+    "src/**/*.ts",
+    "@types/**/*.d.ts",
+    "node_modules/axios",
+    "node_modules/redux-thunk",
+    "public/webPush.js"
+  ],
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}

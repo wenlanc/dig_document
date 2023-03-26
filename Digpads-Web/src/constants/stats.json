@@ -1,0 +1,10 @@
+{
+	"data": {
+		"stats": [
+			{ "name": "reviewsCollected", "content": [2, 0, 0, 0] },
+			{ "name": "reviewsRejected", "content": [1, 0, 0, 0] },
+			{ "name": "reviewsPublished", "content": [1, 0, 0, 0] },
+			{ "name": "reviewsResponses", "content": [0, 0, 1, 0] }
+		]
+	}
+}
